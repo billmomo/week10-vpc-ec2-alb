@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg1" {
-    name = "terraforty-sg"
+    name = "terrafy-sg"
     description = "Allow ssh and httpd"
     vpc_id = aws_vpc.vpc8.id
     
