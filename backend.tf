@@ -4,9 +4,9 @@ terraform {
     bucket         = "obed-90"
     key            = "week10/terraform.tfstate"
     region         = "us-east-1"
-    encrypt        = true
+    encrypt        = false
     dynamodb_table = "state-log"
-    
+
   }
 }
 
