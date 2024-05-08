@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg1" {
-    name = "terraform-sg"
+    name = "terraforty-sg"
     description = "Allow ssh and httpd"
     vpc_id = aws_vpc.vpc8.id
     
@@ -18,7 +18,7 @@ resource "aws_security_group" "sg1" {
         cidr_blocks = ["0.0.0.0/0"]
     }
   tags= {
-    env = "Dev"
+    env = "Dedfg"
   }
 
   
