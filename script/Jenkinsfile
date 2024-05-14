@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('init'){
             steps{
-                sh 'terraform init-migrate-state -no-color'
+                sh 'terraform init -no-color'
             }
         }
         stage('validate'){
